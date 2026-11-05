@@ -25,6 +25,94 @@
     @media(max-width:850px){.nav{gap:16px}.nav a{font-size:12px}.nav .nav-cta{padding:10px 12px}.hero{min-height:580px}.hero-content{max-width:590px}.hero-art img{object-position:62% center}.hero-art:after{background:linear-gradient(90deg,rgba(231,241,238,.98) 0%,rgba(231,241,238,.92) 43%,rgba(231,241,238,.5) 100%)}.service-grid{grid-template-columns:repeat(2,1fr)}.service{min-height:230px}.feature-grid{gap:6vw}.gallery-grid{grid-template-rows:190px 150px}.contact-grid{gap:5vw}}
     @media(max-width:640px){.demo-bar{font-size:9px;letter-spacing:.08em;padding-inline:8px}.header-inner{min-height:68px}.menu{display:block}.nav{display:none;position:absolute;top:68px;left:0;right:0;background:var(--paper);padding:14px var(--pad) 22px;border-bottom:1px solid var(--line);align-items:stretch;flex-direction:column;gap:0}.nav.open{display:flex}.nav a{padding:12px 0;border-bottom:1px solid var(--line);font-size:14px}.nav .nav-cta{margin-top:12px;text-align:center;padding:13px}.hero{min-height:unset;align-items:flex-start}.hero-content{padding-block:72px 85px}.hero-art img{object-position:63% center}.hero-art:after{background:linear-gradient(180deg,rgba(231,241,238,.97) 0%,rgba(231,241,238,.9) 46%,rgba(231,241,238,.36) 100%)}.hero-label{right:var(--pad);bottom:22px;font-size:8px;background:rgba(231,241,238,.75);padding:5px 7px}.eyebrow{font-size:9px;letter-spacing:.13em;margin-bottom:20px}h1{font-size:clamp(52px,14vw,74px);max-width:410px;margin-bottom:22px}.hero-lead{font-size:16px;max-width:350px}.button{min-height:50px;padding-inline:16px;font-size:13px}.trust-row{grid-template-columns:1fr 1fr;padding-block:18px;gap:14px}.trust-intro{grid-column:1/-1;font-size:17px}.trust-item{font-size:10px;gap:8px}.trust-item i{width:25px;height:25px;font-size:12px}.section{padding-block:76px}.section-head{grid-template-columns:1fr;gap:16px;margin-bottom:30px}.section h2{font-size:44px}.section-head>p{font-size:14px}.service-grid{grid-template-columns:1fr 1fr}.service{padding:19px 15px;min-height:239px}.service-icon{margin-bottom:22px;width:40px;height:40px}.service h3{font-size:16px}.service p{font-size:12px}.service a{font-size:11px}.feature-grid{grid-template-columns:1fr;gap:34px}.feature h2{font-size:48px}.feature-copy{font-size:14px}.feature-list div{font-size:13px}.steps{grid-template-columns:1fr;gap:24px;margin-top:30px}.step{display:grid;grid-template-columns:42px 1fr;column-gap:12px;padding-top:14px}.step-num{grid-row:span 2}.step h3{margin:2px 0 5px;font-size:18px}.step p{font-size:13px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:210px 130px 130px;gap:9px;margin-top:28px}.tile:first-child{grid-column:1/-1;grid-row:auto}.tile-label{left:9px;bottom:9px;font-size:8px;padding:6px 7px}.tile-label small{font-size:8px}.faq-grid{grid-template-columns:1fr;gap:24px}.faq-intro h2{font-size:46px}.faq-list summary{font-size:14px;padding-block:17px}.faq-list summary:after{top:14px}.faq-list details p{font-size:13px}.contact-grid{grid-template-columns:1fr;gap:25px}.contact h2{font-size:53px}.contact-copy{font-size:14px}.contact-card{padding:23px 19px}.footer-row{align-items:flex-start;flex-direction:column;gap:8px}.footer p{line-height:1.5}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+  
+    /* Dirección de arte: atelier de vidrio y arquitectura */
+    :root{--ink:#172a2d;--muted:#536568;--sea:#356f73;--sea2:#244f54;--lime:#e5a35a;--paper:#f4f1e9;--white:#fffefa;--line:#d9d4c9;--max:1200px;--pad:clamp(20px,5.2vw,76px)}
+    body{background:var(--paper);color:var(--ink)}
+    .demo-bar{background:#172a2d;color:#f4f1e9}
+    .demo-bar b{color:var(--lime)}
+    .header{background:rgba(244,241,233,.94);border-bottom-color:rgba(23,42,45,.12)}
+    .brand-mark{border-radius:2px;color:var(--sea);transform:rotate(45deg);font-size:19px}
+    .brand-mark::first-letter{transform:rotate(-45deg)}
+    .nav .nav-cta{border-radius:2px;background:var(--ink)}
+    .nav .nav-cta:hover{background:var(--sea)}
+    .arrow-icon{display:inline-block;width:14px;height:14px;flex:0 0 14px;vertical-align:middle}
+    .hero{min-height:680px;background-color:#f4f1e9;background-image:linear-gradient(rgba(23,42,45,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(23,42,45,.035) 1px,transparent 1px);background-size:46px 46px}
+    .hero-content{width:min(100%,var(--max));max-width:none;margin-inline:auto;padding:104px var(--pad) 112px}
+    .hero-content>*{max-width:560px}
+    .hero-content .eyebrow{max-width:none}
+    h1{font-size:clamp(58px,7.4vw,94px);max-width:560px;line-height:.94;letter-spacing:-.078em}
+    h1 em,h2 em{color:#a55c35}
+    .eyebrow{color:#a55c35}
+    .eyebrow:before{background:#a55c35}
+    .hero-lead{color:#46595b;max-width:430px}
+    .hero-art{left:auto;right:max(calc((100% - var(--max))/2 + var(--pad)),var(--pad));top:48px;bottom:48px;width:43%;background:#b4c9c4;box-shadow:18px 18px 0 #d6e0d9;z-index:0}
+    .hero-art img{object-position:56% center;filter:saturate(.82) contrast(1.04)}
+    .hero-art:after{inset:0;background:linear-gradient(180deg,rgba(19,43,47,.04) 40%,rgba(19,43,47,.24) 100%)}
+    .hero-art:before{content:"";position:absolute;inset:14px;z-index:2;border:1px solid rgba(255,254,250,.75);pointer-events:none}
+    .hero-label{right:calc(max((100% - var(--max))/2 + var(--pad),var(--pad)) + 22px);bottom:68px;color:#fffefa;background:rgba(23,42,45,.78);padding:8px 11px;letter-spacing:.12em}
+    .button{border-radius:2px}
+    .primary{background:#a55c35}
+    .primary:hover{background:#814627}
+    .secondary{border-color:#9caeaa;background:rgba(255,254,250,.8)}
+    .trust{background:#172a2d;border-color:#172a2d;color:#f4f1e9}
+    .trust-intro{color:var(--lime)}
+    .trust-item{color:#edf0e7}
+    .trust-item i{border-radius:2px;background:rgba(255,255,255,.1);color:var(--lime)}
+    .section{background-color:var(--paper)}
+    .section-head>p,.service p,.contact-copy{color:var(--muted)}
+    .number{color:#a55c35}
+    .service-grid{border-color:#c9c2b6}
+    .service{background:#faf8f2;border-color:#c9c2b6;min-height:260px;position:relative;overflow:hidden}
+    .service:after{content:"";position:absolute;width:84px;height:84px;right:-34px;top:-34px;border:1px solid rgba(53,111,115,.24);transform:rotate(45deg);pointer-events:none}
+    .service:hover{background:#fffefa;transform:translateY(-4px)}
+    .service-icon{background:#e8e4d9;color:var(--sea);border-radius:2px;width:48px;height:48px}
+    .service-icon svg{width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:miter}
+    .service a{color:#8f4e2e}
+    .feature{background:#203d40}
+    .feature .eyebrow{color:var(--lime)}
+    .feature .eyebrow:before{background:var(--lime)}
+    .feature h2 em{color:var(--lime)}
+    .feature:after{border-radius:0;transform:rotate(45deg)}
+    .process{background:#e7e7dc}
+    .step{border-color:#b1b9ac}
+    .step-num{color:#a55c35}
+    .gallery{background:#faf8f2}
+    .tile{border-radius:1px}
+    .tile:after{background:linear-gradient(180deg,transparent 30%,rgba(15,35,37,.78))}
+    .tile-label{left:12px;bottom:12px;border-left:2px solid var(--lime);background:rgba(23,42,45,.52);backdrop-filter:blur(6px)}
+    .gallery-note{color:#667477}
+    .faq-list details,.faq-list details:first-child{border-color:#c9c2b6}
+    .faq-list summary:after{color:#a55c35}
+    .contact{background:#dedfd5}
+    .contact-card{border-radius:2px;box-shadow:12px 12px 0 rgba(53,111,115,.16)}
+    .contact-fields input,.contact-fields textarea{background:#fffefa;border-radius:2px;border-color:#c9cfc5}
+    .footer{background:#172a2d}
+    @media(max-width:850px){
+      .hero{min-height:610px}
+      .hero-content{padding-block:92px 96px}
+      .hero-content>*{max-width:50%}
+      .hero-art{width:41%;right:var(--pad);top:46px;bottom:46px}
+      .hero-label{right:calc(var(--pad) + 18px);bottom:64px}
+    }
+    @media(max-width:640px){
+      .brand-mark{transform:rotate(45deg)}
+      .nav{background:var(--paper)}
+      .hero{min-height:0;display:flex;flex-direction:column;align-items:stretch;padding-top:0}
+      .hero-content{padding:70px var(--pad) 34px}
+      .hero-content>*{max-width:100%}
+      h1{font-size:clamp(54px,14vw,76px);max-width:420px}
+      .hero-art{position:relative;inset:auto;width:calc(100% - 2 * var(--pad));height:300px;margin:0 var(--pad) 42px;box-shadow:9px 9px 0 #d6e0d9}
+      .hero-art img{object-position:58% center}
+      .hero-art:after{background:linear-gradient(180deg,rgba(19,43,47,0) 46%,rgba(19,43,47,.32) 100%)}
+      .hero-art:before{inset:10px}
+      .hero-label{right:calc(var(--pad) + 12px);bottom:58px;font-size:8px}
+      .trust{background:#172a2d}
+      .trust-item{font-size:10px}
+      .service{min-height:235px}
+      .contact-card{box-shadow:8px 8px 0 rgba(53,111,115,.16)}
+    }
+
   </style>
 </head>
 <body>
@@ -33,17 +121,17 @@
 <header class="header"><div class="shell header-inner">
   <a class="brand" href="#inicio" aria-label="Cristal Norte, inicio"><span class="brand-mark" aria-hidden="true">C</span><span>Cristal Norte<small>VIDRIERÍA A MEDIDA</small></span></a>
   <button class="menu" id="menu" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú">☰</button>
-  <nav class="nav" id="nav" aria-label="Navegación principal"><a href="#servicios">Servicios</a><a href="#proceso">Cómo trabajamos</a><a href="#trabajos">Trabajos</a><a href="#preguntas">Preguntas</a><a class="nav-cta" href="#contacto">Consultar <span aria-hidden="true">↗</span></a></nav>
+  <nav class="nav" id="nav" aria-label="Navegación principal"><a href="#servicios">Servicios</a><a href="#proceso">Cómo trabajamos</a><a href="#trabajos">Trabajos</a><a href="#preguntas">Preguntas</a><a class="nav-cta" href="#contacto">Consultar <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4m0 0H5m7 0v7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></nav>
 </div></header>
 <main id="contenido">
-<section class="hero" id="inicio"><div class="shell hero-content"><p class="eyebrow">VIDRIOS · ESPEJOS · CERRAMIENTOS</p><h1>La luz también<br>se <em>diseña.</em></h1><p class="hero-lead">Soluciones en vidrio pensadas para cada espacio: claras, funcionales y hechas a medida.</p><div class="actions"><a class="button primary" href="#contacto">Contanos tu idea <span aria-hidden="true">↗</span></a><a class="button secondary" href="#servicios">Ver servicios <span aria-hidden="true">↓</span></a></div><p class="hero-note">Cada proyecto se define según las medidas, el uso y el tipo de vidrio.</p></div>
-<div class="hero-art"><img src="https://images.pexels.com/photos/28812390/pexels-photo-28812390.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="Vidriero midiendo un panel de vidrio en su taller; imagen ilustrativa de Pexels" fetchpriority="high" decoding="async"></div><a class="hero-label" href="https://www.pexels.com/photo/industrial-worker-measuring-glass-with-precision-28812390/" target="_blank" rel="noopener noreferrer">Foto ilustrativa · Hanna Alves / Pexels ↗</a></section>
+<section class="hero" id="inicio"><div class="shell hero-content"><p class="eyebrow">VIDRIOS · ESPEJOS · CERRAMIENTOS</p><h1>La luz también<br>se <em>diseña.</em></h1><p class="hero-lead">Soluciones en vidrio pensadas para cada espacio: claras, funcionales y hechas a medida.</p><div class="actions"><a class="button primary" href="#contacto">Contanos tu idea <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4m0 0H5m7 0v7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="button secondary" href="#servicios">Ver servicios <span aria-hidden="true">↓</span></a></div><p class="hero-note">Cada proyecto se define según las medidas, el uso y el tipo de vidrio.</p></div>
+<div class="hero-art"><img src="https://images.pexels.com/photos/28812390/pexels-photo-28812390.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200" alt="Vidriero midiendo un panel de vidrio en su taller; imagen ilustrativa de Pexels" fetchpriority="high" decoding="async"></div><a class="hero-label" href="https://www.pexels.com/photo/industrial-worker-measuring-glass-with-precision-28812390/" target="_blank" rel="noopener noreferrer">Foto ilustrativa · Hanna Alves / Pexels <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4m0 0H5m7 0v7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></section>
 <section class="trust"><div class="shell trust-row"><span class="trust-intro">Cada espacio tiene su forma de brillar.</span><span class="trust-item"><i>⌑</i> A medida</span><span class="trust-item"><i>◌</i> Asesoramiento</span><span class="trust-item"><i>✳</i> Terminaciones cuidadas</span></div></section>
 <section class="section" id="servicios"><div class="shell"><div class="section-head"><div><span class="number">01 — SERVICIOS</span><h2>Vidrio para<br><em>cada ambiente.</em></h2></div><p>Desde una pieza puntual hasta un cerramiento completo: el primer paso es entender qué necesitás y dónde va instalado.</p></div><div class="service-grid">
-<article class="service"><span class="service-icon" aria-hidden="true">▤</span><h3>Vidrios a medida</h3><p>Cortes para puertas, ventanas, divisiones y muebles, según las dimensiones del espacio.</p><a href="#contacto">Consultar por vidrios ↗</a></article>
-<article class="service"><span class="service-icon" aria-hidden="true">◉</span><h3>Espejos</h3><p>Opciones para baños, dormitorios, recibidores y espacios comerciales.</p><a href="#contacto">Pensar un espejo ↗</a></article>
-<article class="service"><span class="service-icon" aria-hidden="true">╱</span><h3>Mamparas</h3><p>Alternativas para renovar el baño con una solución acorde al espacio y al uso.</p><a href="#contacto">Ver mamparas ↗</a></article>
-<article class="service"><span class="service-icon" aria-hidden="true">⌗</span><h3>Cerramientos</h3><p>Paños y divisiones que aprovechan la luz y ayudan a organizar cada ambiente.</p><a href="#contacto">Contar el proyecto ↗</a></article>
+<article class="service"><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="9" y="8" width="30" height="32" rx="1"/><path d="M15 15h18M15 22h18M15 29h11"/></svg></span><h3>Vidrios a medida</h3><p>Cortes para puertas, ventanas, divisiones y muebles, según las dimensiones del espacio.</p><a href="#contacto">Consultar por vidrios <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4m0 0H5m7 0v7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></article>
+<article class="service"><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="15"/><circle cx="24" cy="24" r="9"/><path d="M24 9v30"/></svg></span><h3>Espejos</h3><p>Opciones para baños, dormitorios, recibidores y espacios comerciales.</p><a href="#contacto">Pensar un espejo <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4m0 0H5m7 0v7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></article>
+<article class="service"><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M10 12h28v24H10zM10 18h28M17 18v18M31 18v18"/></svg></span><h3>Mamparas</h3><p>Alternativas para renovar el baño con una solución acorde al espacio y al uso.</p><a href="#contacto">Ver mamparas <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4m0 0H5m7 0v7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></article>
+<article class="service"><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 15h32M8 33h32M15 8v32M33 8v32M9 9l30 30"/></svg></span><h3>Cerramientos</h3><p>Paños y divisiones que aprovechan la luz y ayudan a organizar cada ambiente.</p><a href="#contacto">Contar el proyecto <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4m0 0H5m7 0v7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></article>
 </div></div></section>
 <section class="feature"><div class="shell section feature-grid"><div><p class="eyebrow">EL DETALLE IMPORTA</p><h2>Transparencia<br>en cada <em>decisión.</em></h2><p class="feature-copy">Elegir un vidrio no es solo elegir cómo se ve. También importa dónde se usa, cómo se instala y qué necesita el ambiente.</p></div><div class="feature-list"><div><span>01</span> Uso y ubicación</div><div><span>02</span> Medidas y tipo de apertura</div><div><span>03</span> Tipo de vidrio y terminación</div><div><span>04</span> Colocación y herrajes</div></div></div></section>
 <section class="section process" id="proceso"><div class="shell"><div class="section-head"><div><span class="number">02 — EL PROCESO</span><h2>De la idea a<br><em>la instalación.</em></h2></div><p>Una guía simple para que sepas qué información ayuda a evaluar tu consulta.</p></div><div class="steps"><article class="step"><span class="step-num">01</span><h3>Nos contás qué buscás</h3><p>Indicá el ambiente, el tipo de trabajo y, si podés, compartí una foto de referencia.</p></article><article class="step"><span class="step-num">02</span><h3>Revisamos las medidas</h3><p>Las dimensiones y condiciones del lugar permiten orientar mejor la solución.</p></article><article class="step"><span class="step-num">03</span><h3>Definimos la propuesta</h3><p>Se confirman materiales, detalles, tiempos y condiciones antes de avanzar.</p></article></div></div></section>
@@ -54,7 +142,7 @@
 <div class="tile"><img src="https://images.pexels.com/photos/6436749/pexels-photo-6436749.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="División de vidrio en un living contemporáneo; foto ilustrativa" loading="lazy" decoding="async"><a class="tile-label" href="https://www.pexels.com/photo/room-interior-with-glass-wall-at-home-6436749/" target="_blank" rel="noopener noreferrer">Divisiones interiores<small>Foto: Max Vakhtbovych / Pexels ↗</small></a></div>
 <div class="tile"><img src="https://images.pexels.com/photos/7045301/pexels-photo-7045301.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="Hall interior iluminado con una puerta de vidrio; foto ilustrativa" loading="lazy" decoding="async"><a class="tile-label" href="https://www.pexels.com/photo/modern-hall-interior-with-glass-door-at-home-7045301/" target="_blank" rel="noopener noreferrer">Cerramientos<small>Foto: Max Vakhtbovych / Pexels ↗</small></a></div></div><p class="gallery-note">Fotos de Pexels usadas como referencia visual. Son ilustrativas y no representan trabajos del negocio.</p></div></section>
 <section class="section" id="preguntas"><div class="shell faq-grid"><div class="faq-intro"><span class="number">04 — PREGUNTAS</span><h2>Antes de<br><em>consultar.</em></h2></div><div class="faq-list"><details><summary>¿Qué información sirve para pedir una cotización?</summary><p>El tipo de trabajo, las medidas aproximadas, la localidad y una foto del lugar suelen ayudar. La propuesta final depende de revisar cada caso.</p></details><details><summary>¿Puedo enviar una foto del espacio?</summary><p>Sí. Una imagen de referencia puede orientar la conversación, aunque no reemplaza la verificación de medidas y condiciones de instalación.</p></details><details><summary>¿Qué tipo de vidrio necesito?</summary><p>Depende de la ubicación, el uso y las características del proyecto. La elección se confirma con asesoramiento profesional para cada situación.</p></details><details><summary>¿Trabajan en mi zona?</summary><p>La cobertura se define con cada vidriería. En esta demo el área de atención todavía no está configurada.</p></details></div></div></section>
-<section class="section contact" id="contacto"><div class="shell contact-grid"><div><span class="number">05 — CONTACTO</span><h2>¿Tenés una idea<br>en <em>mente?</em></h2><p class="contact-copy">Contanos qué espacio querés resolver y qué estás imaginando. Te orientamos sobre los próximos pasos.</p></div><form class="contact-card" id="contactForm"><h3>Empezá por acá</h3><p>Dejanos algunos datos para preparar tu consulta.</p><div class="contact-fields"><label><span class="sr-only">Tu nombre</span><input required maxlength="80" name="name" placeholder="Tu nombre" autocomplete="name"></label><label><span class="sr-only">Tu localidad</span><input maxlength="80" name="area" placeholder="Localidad" autocomplete="address-level2"></label><label><span class="sr-only">Qué necesitás</span><textarea required maxlength="600" name="need" placeholder="¿Qué trabajo necesitás?"></textarea></label><button class="button primary" type="submit">Preparar consulta <span aria-hidden="true">↗</span></button></div><p class="contact-hint" id="formHint">Demo sin envío: los datos no se guardan ni se transmiten. El contacto se configura antes de publicar.</p></form></div></section>
+<section class="section contact" id="contacto"><div class="shell contact-grid"><div><span class="number">05 — CONTACTO</span><h2>¿Tenés una idea<br>en <em>mente?</em></h2><p class="contact-copy">Contanos qué espacio querés resolver y qué estás imaginando. Te orientamos sobre los próximos pasos.</p></div><form class="contact-card" id="contactForm"><h3>Empezá por acá</h3><p>Dejanos algunos datos para preparar tu consulta.</p><div class="contact-fields"><label><span class="sr-only">Tu nombre</span><input required maxlength="80" name="name" placeholder="Tu nombre" autocomplete="name"></label><label><span class="sr-only">Tu localidad</span><input maxlength="80" name="area" placeholder="Localidad" autocomplete="address-level2"></label><label><span class="sr-only">Qué necesitás</span><textarea required maxlength="600" name="need" placeholder="¿Qué trabajo necesitás?"></textarea></label><button class="button primary" type="submit">Preparar consulta <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 12.5 12 4m0 0H5m7 0v7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div><p class="contact-hint" id="formHint">Demo sin envío: los datos no se guardan ni se transmiten. El contacto se configura antes de publicar.</p></form></div></section>
 </main><footer class="footer"><div class="shell footer-row"><span class="footer-brand">Cristal Norte · Vidriería a medida</span><p>Nombre y contenido ficticios · Demo de TuWebEn3Dias</p><a href="#inicio">Volver arriba ↑</a></div></footer>
 <script>
 const menu=document.getElementById('menu'),nav=document.getElementById('nav');menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')==='true';menu.setAttribute('aria-expanded',String(!open));menu.setAttribute('aria-label',open?'Abrir menú':'Cerrar menú');nav.classList.toggle('open',!open)});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Abrir menú')}));document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();document.getElementById('formHint').textContent='Gracias. Esta demo no envía ni guarda información; el canal de contacto se configura antes de publicar.';document.getElementById('formHint').setAttribute('role','status')});
